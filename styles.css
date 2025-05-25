@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Short Stack";
+	background-color: #0d1b3f;
+	color: #e0f4ff;
+	text-align: center;
+	margin: auto;
+	max-width: 1200px;
+	position: relative;
+}
+
+
+
+header {
+	padding: 20px;
+}
+
+
+
+.logo {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
+.navbar {
+	padding: 15px;
+	text-align: center;
+	background-color: #030F2E;
+	border-radius: 28px;
+	
+}
+
+.nav-list {
+	font-family: "Freckle Face", system-ui;
+	color: #82A1D5;
+	font-style: normal;
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	font-size: 1.8em;
+}
+
+.nav-list li {
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+#faq ul {
+	text-decoration: none;
+	text-align: left;
+	padding-top: 42px;
+	padding-right: 42px;
+	padding-bottom: 42px;
+	padding-left: 42px;
+	list-style-type: none;
+}
+#faq ul li {
+	padding-bottom: 30px;
+}
+
+#faq ul li p {
+	margin-left: 33px;
+	color: #C0D5D7;
+}
+
+
+
+.nav-list a {
+	text-decoration: none;
+	color: #82A1D5;
+}
+.nav-list a:hover , .nav-list a:active{
+	color: #C0D5D7;
+
+}
+
+
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+	font-family: "Freckle Face", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #82A1D5;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: "Freckle Face", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #3A291A;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 1em;
+}
+
+.button {
+	color: #41191A;
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom: 60px;
+	text-decoration: none;
+	background-image: url("Button1.png");
+	background-size: contain;          /* Keeps entire image visible */
+	background-position: center;       /* Centers the image */
+	background-repeat: no-repeat;      /* Prevents tiling */
+	display: inline-block;             /* Needed if you're styling an <a> */
+	border-radius: 8px;                /* Re-enable if you want rounded corners */
+}
+
+.button:hover {
+	background-image: url("Button1Highlighted.png");
+}
+
+.button:checked {
+	background-image: url("Button1Pressed.png");
+}
+
+footer {
+	background-color: #030F2E;
+	padding: 20px;
+	color: #95b9d6;
+	font-size: 14px;
+}
+#bottomImg {
+	display: flex;
+	justify-content: center;
+	max-width: 100px;	
+}
